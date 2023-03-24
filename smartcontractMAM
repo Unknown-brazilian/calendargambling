@@ -1,0 +1,59 @@
+Plataforma: MAM
+
+SmartContract na rede:
+
+                Inputs
+                            Cria alvo                            
+                            Cria carteira escrow para o alvo
+                            Data para abertura da pool para rodar pagamento
+                            
+                            
+                Recebe
+
+                            Pagamento
+                            Subtrai 1% do valor recebido para o Superboss
+                            Direciona valor restante do pagamento para a carteira escrow do alvo
+                            1a Aposta valor min = 1 USD em cotação BTC do momento da aposta
+                            Proximas apostas proxima >= valor da última + 1 USD
+
+                InterrompeApostas
+
+                            Ao receber do oráculo a informação de conclusão do alvo
+    
+                Inicia cálculo
+
+                            Cria variável para Concordantes
+                            Cria variável para Discordantes
+                            Divide por 100 em num INT
+                            Cria variável Result
+                            Cria Countdown para concenso de pagamento    Fórmula para cálculo: 2592000 seg + 2592000 seg * [Result]
+                
+                Pagamento: 
+       
+                            Quando countdown chegar a zero: Paga o saldo depositado pelos apostadores a(s) carteira(s) que acertou o dia
+                                                            Se nenhuma aposta acertar o dia, os valores são devolvidos (-1% já descontado) ás carteiras dos apostadores
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+
+                            

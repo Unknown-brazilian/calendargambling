@@ -1,0 +1,55 @@
+
+body {
+    color:black;
+
+}
+
+.anouncement {
+
+    padding-left:3%;
+    margin-top: 15px;
+    margin-left: 25%;
+    margin-right: 50%;
+    color:rgb(39, 39, 39);
+    position: relative;
+    margin-top: 3%;
+    font-size: 3rem;
+
+
+}
+
+.textDescription {
+
+    margin-top: 90px;
+    width: 30%;
+    margin-left: 70%;
+    position: relative;
+   
+
+}
+
+.mainDiv {
+    
+    
+    border: none;
+    margin: 40% none 30% none;
+    position: absolute;
+
+}
+.backgroundImage {
+
+    height: auto%;
+    width: 100%;
+    margin: auto 20% auto 20%;
+    position:absolute;
+    border-top:none;
+    filter: blur(8px);
+  -webkit-filter: blur(2px)
+    
+
+
+}
+
+
+
+  
